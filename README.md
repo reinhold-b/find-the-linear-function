@@ -2,6 +2,8 @@
 A Python script to find a linear function being given to coordinates.
 
 ## Usage
+Graph
+![Graph](screenshot_graph.png)
 ```python
 X, Y = [1, 3], [2, 5]
 
