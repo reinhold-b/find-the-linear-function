@@ -17,6 +17,7 @@ class equationFinder:
         """Validate if the X and Y coordinates aren't the same"""
         if (X == Y):
             return False
+        return True
 
     def find_slope(self, X, Y):
         """Find the slope of the function"""
@@ -37,9 +38,10 @@ class equationFinder:
 
     def find_equation(self):
         """Call this method to solve find the equation"""
-        if self.validate(self.X, self.Y):
+        validiation = self.validate(self.X, self.Y)
+        if validiation:
             slope = self.find_slope(self.X, self.Y)
             axis_intercept = self.find_axis_intercept(slope, self.X)
-            return f"{slope}x " + (str(axis_intercept))
+            return f"\n\nEquation: {slope}x " + (str(axis_intercept)) + "\n\n"
 
         return "No function!"
