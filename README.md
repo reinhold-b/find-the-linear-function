@@ -15,3 +15,15 @@ Output:
 ```
 >>> 2x + 1
 ```
+## find-distance
+Find the distance between two points in a coordinate system.
+```python
+start, end = [0, 0], [5, 5]
+distance = find_distance(start, end, round_output=True)
+
+print(distance)
+```
+Output:
+```
+7.041
+```
