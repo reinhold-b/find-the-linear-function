@@ -1,5 +1,5 @@
 # maths-and-python
-Some fun with maths and Python!
+This repo is a container for algorithms with maths and Python I code for fun!
 
 ## find-the-linear-function
 ![Graph](screenshot_graph.png)
