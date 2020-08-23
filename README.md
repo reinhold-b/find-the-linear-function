@@ -1,7 +1,7 @@
-# find-the-linear-function
-A Python script to find a linear function being given to coordinates.
+# maths-and-python
+Some fun with maths and Python!
 
-## Usage
+## find-the-linear-function
 ![Graph](screenshot_graph.png)
 ```python
 X, Y = [1, 3], [2, 5]
