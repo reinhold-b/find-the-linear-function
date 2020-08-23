@@ -42,6 +42,6 @@ class equationFinder:
         if validiation:
             slope = self.find_slope(self.X, self.Y)
             axis_intercept = self.find_axis_intercept(slope, self.X)
-            return f"\n\nEquation: {slope}x " + (str(axis_intercept)) + "\n\n"
+            return f"\n\nEquation: {round(slope, 3)}x " + (str(axis_intercept)) + "\n\n"
 
         return "No function!"
