@@ -13,7 +13,7 @@ print(linear_equation)
 ```
 Output:
 ```
->>> 2x + 1
+Equation: 2x + 1
 ```
 ## find-distance
 Find the distance between two points in a coordinate system.
